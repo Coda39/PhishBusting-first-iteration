@@ -22,18 +22,7 @@ body {
 	background-attachment: fixed;
 	background-color: var(--color-bg-1);
 	background-size: 100vw 100vh;
-	background-image: radial-gradient(
-			50% 50% at 50% 50%,
-			rgba(255, 255, 255, 0.75) 0%,
-			rgba(255, 255, 255, 0) 100%
-		),
-		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
-}
-
-h1,
-h2,
-p {
-	font-weight: 400;
+	background-color: #EFFAF8;
 }
 
 p {
@@ -50,12 +39,17 @@ a:hover {
 }
 
 h1 {
-	font-size: 2rem;
-	text-align: center;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #1D485E;
 }
 
-h2 {
-	font-size: 1rem;
+.pHeader{
+	font-size: 25px;
+	font-weight: 600;
+	color: #1D485E;
+	padding-left: 70px;
+	padding-top: -30px;
 }
 
 pre {
@@ -104,4 +98,67 @@ button:focus:not(:focus-visible) {
 	position: absolute;
 	width: 1px;
 	white-space: nowrap;
+}
+
+hr{
+	color:black;
+	width: 62rem;
+	align-self: left;
+}
+
+img{
+	width: 300px;
+	height: 220px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column3 {
+	float: left;
+	height: 380px;
+}
+
+.left3 {
+	width: 30%;
+	padding-right: 49px;
+}
+
+.middle3 {
+	width: 30%;
+	padding-right: 49px;
+}
+
+.right3 {
+	width: 30%;
+}
+
+.column2 {
+	float: left;
+	height: 300px;
+}
+
+.left {
+	width: 65%;
+}
+
+.right {
+	padding-left: 50px;
+	padding-top: 20px;
+	width: 25%;
+}
+
+.columnHeader {
+	float: left;
+	width: 33.33%;
+	height: 100px;
+}
+
+.headerLine{
+	color:black;
+	width: 21rem;
+	align-self: left;
 }
