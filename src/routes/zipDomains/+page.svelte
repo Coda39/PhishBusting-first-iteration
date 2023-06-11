@@ -84,12 +84,12 @@
 <div class="background-div">
 	<div class="row">
 		<div class="two-column-even">
-			<h2 align="center">Exploting Trust</h2>
+			<p class="p-header" align="center">Exploting Trust</p>
 			<img src="src\lib\images\exploiting_trust.webp" alt="Exploting Trust" class="img-pg-center">
 			<p style="padding:10px;">The association of .zip domains with downloadable files can be exploited by attackers to deceive users. They may send phishing emails or create websites that use a .zip domain, claiming to offer useful software, updates, or documents. Many people who trust files with a .zip extension will more likely fall for these scams.</p>
 		</div>
 		<div class="two-column-even" style="background-color:#E4EFEC;">
-			<h2 align="center">Malware Distribution</h2>
+			<p class="p-header" align="center">Malware Distribution</p>
 			<img src="src\lib\images\malware_distribution.jpg" alt="Malware Distribution" class="img-pg-center">
 			<p style="padding:10px;">Attackers may use .zip domains to host malicious files, such as malware or ransomware, disguised as .zip downloads. Unsuspecting users who download and open these files could unknowingly infect their devices.</p>
 			<br>

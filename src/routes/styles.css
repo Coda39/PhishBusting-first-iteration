@@ -132,6 +132,13 @@ li{
 	font-family: 'Roboto', sans-serif;
 }
 
+.p-header-left{
+	font-size: 25px;
+	font-weight: 600;
+	color: var(--accent-color);
+	font-family: 'Roboto', sans-serif;
+}
+
 .row:after {
 	content: "";
 	display: table;
