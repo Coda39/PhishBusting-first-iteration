@@ -9,7 +9,14 @@
 	--color-bg-2: hsl(224, 44%, 95%);
 	--color-theme-1: #80B3FF;
 	--color-theme-2: #4075a6;
-	--color-text: rgba(0, 0, 0, 0.7);
+
+	--color-text: #000000;
+	--color-background: #EFFAF8;
+	--primary-color: #FFFFFF;
+	--secondary-color: #1D485E;
+	--accent-color: #0A1F1C;
+	--banner-color: #E4EFEC;
+
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
@@ -22,11 +29,12 @@ body {
 	background-attachment: fixed;
 	background-color: var(--color-bg-1);
 	background-size: 100vw 100vh;
-	background-color: #EFFAF8;
+	background-color: var(--color-background);
 }
 
 p {
 	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -41,15 +49,8 @@ a:hover {
 h1 {
 	font-size: 1rem;
 	font-weight: 600;
-	color: #1D485E;
-}
-
-.pHeader{
-	font-size: 25px;
-	font-weight: 600;
-	color: #1D485E;
-	padding-left: 70px;
-	padding-top: -30px;
+	color: var(--secondary-color);
+	font-family: 'Roboto', sans-serif;
 }
 
 pre {
@@ -101,14 +102,34 @@ button:focus:not(:focus-visible) {
 }
 
 hr{
-	color:black;
-	width: 62rem;
+	color: var(--color-text);
+	width: 100%;
 	align-self: left;
 }
 
-img{
-	width: 300px;
-	height: 220px;
+.img-pg{
+	width: 20rem;
+	height: 15rem;
+}
+
+.img-pg-center{
+	width: 20rem;
+	height: 15rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li{
+	font-family: 'Roboto', sans-serif;
+}
+
+.p-header{
+	font-size: 25px;
+	font-weight: 600;
+	color: var(--accent-color);
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
 
 .row:after {
@@ -117,48 +138,37 @@ img{
 	clear: both;
 }
 
-.column3 {
+.two-column-even {
 	float: left;
-	height: 380px;
+	width: 50%;
+	height: 300;
 }
 
-.left3 {
-	width: 30%;
-	padding-right: 49px;
-}
-
-.middle3 {
-	width: 30%;
-	padding-right: 49px;
-}
-
-.right3 {
-	width: 30%;
-}
-
-.column2 {
-	float: left;
-	height: 300px;
-}
-
-.left {
-	width: 65%;
-}
-
-.right {
-	padding-left: 50px;
-	padding-top: 20px;
-	width: 25%;
-}
-
-.columnHeader {
+.three-column-header {
 	float: left;
 	width: 33.33%;
 	height: 100px;
 }
 
-.headerLine{
-	color:black;
-	width: 21rem;
-	align-self: left;
+.three-column {
+	float: left;
+	height: 380px;
+	width: 33.33%;
+}
+
+.two-column-lr {
+	float: left;
+	height: 300px;
+}
+
+.left {
+	width: 70%;
+}
+
+.right {
+	width: 30%;
+}
+
+.background-div {
+	background-color:var(--banner-color);
 }
