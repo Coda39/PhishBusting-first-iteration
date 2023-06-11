@@ -104,3 +104,4 @@
 <p>If you download any file off of a .zip domain, then having an antivirus software will help safeguard your computer. You can use the built-in software called ‘Windows Defender’ or another 3rd party software such as McAfee or Norton to protect your computer. Although it is not a 100% guarantee, it will give your system a stronger chance of blocking any malicious file compared to having no anti-virus protection in place. </p>
 <p><strong>Not All .Zip Domains are Dangerous</strong></p>
 <p>It's worth noting that while .zip domains can be used maliciously, not all websites with this domain extension are harmful. Many legitimate websites use .zip domains to distribute software, archives, or other files securely. However, users should remain vigilant and take necessary precautions to stay safe online.</p>
+=======
